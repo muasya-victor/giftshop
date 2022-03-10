@@ -1,0 +1,95 @@
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #D4678E;
+    z-index: 9;
+}
+
+.nav{
+    padding: 10px 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand-logo{
+    height: 60px;
+    color: #CECDFD;
+    font-family: 'Supermercado One', cursive;
+    font-weight: bold;
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    width: 500px;
+    display: flex;
+}
+
+.search-area{
+    width: 800%;
+    height: 40px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 2px solid #CECDFD;
+    text-transform: capitalize;
+    background: none;
+    color: #CECDFD;
+    outline: none;
+    font-weight: bold;
+}
+
+.search-button{
+    width: 20%;
+    height: 40px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #CECDFD;
+    color: #D4678E;
+    text-transform: capitalize;
+    font-size: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: bold;
+}
+
+.search-area::placeholder{
+    color: #CECDFD;
+}
+
+.nav-items a{
+    margin-left: 20px;
+}
+
+.nav-items a img{
+    width: 30px;
+}
+
+.links-container{
+    width: 100%;
+    display: flex;
+    padding: 10px 10vw;
+    justify-content: center;
+    list-style: none;
+    border-top: 1px solid #CECDFD;
+}
+
+.link{
+    text-transform: capitalize;
+    padding: 0 10px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #CECDFD;
+    opacity: 0.5;
+}
+
+.link:hover{
+    opacity: 1;
+}

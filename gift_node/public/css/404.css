@@ -1,0 +1,17 @@
+@import url('nav.css');
+
+.error-image{
+    display: block;
+    margin: 60px auto;
+}
+
+.error-message{
+    text-align: center;
+    text-transform: capitalize;
+    color: #F06061;
+    font-weight: bold;
+}
+
+.error-message a{
+    color: #F06061;
+}
