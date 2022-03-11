@@ -2,4 +2,4 @@
 
 THIS IS A GIFT SHOP 
 created in express js , node and ejs templating.
-Partner in this development : https://github.com/10-menachi/
+Partner in this development : https://github.com/10-menachi/gift-shop
